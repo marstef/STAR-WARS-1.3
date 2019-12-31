@@ -1,0 +1,21 @@
+name: Jedi collector
+description: This Jedi will collect kyber crystals for you, but he get thirsty when do it, give him some water.
+type: Drill
+size: 2
+tier: 30
+drillTime: 100
+consumes: {
+  power: 1
+  liquid: {
+    liquid: water
+    amount: 0.1
+    booster: true
+  }
+}
+requirements: [
+  steel-plate/80
+  thorium/40
+  titanium/20
+]
+category: production
+research: steel-plate-forge

@@ -1,0 +1,61 @@
+{
+	"type": "burstTurret",
+	"name": "DF-9",
+	"description": "its standard defense turret thats is used on planet Hoth",
+	"targetAir": true,
+	"targetGround": true,
+	"health": 400,
+	"size": 2,
+	"inaccuracy": 5,
+	"reload": 3,
+	"shootCone": 40,
+	"shots": 1,
+	"range": 200,
+	"burstSpacing": 6,
+	"ammo": {
+		"copper": {
+			"speed": 4.2,
+			"damage": 10,
+			"bulletWidth": 4,
+			"bulletHeight": 6,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 4
+		},
+		"lead": {
+			"speed": 5.5,
+			"damage": 20,
+			"bulletWidth": 4,
+			"bulletHeight": 7,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 4
+		},
+		"steel-plate": {
+			"speed": 5,
+			"damage": 30,
+			"bulletWidth": 5,
+			"bulletHeight": 6,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 6
+		},
+		"kyber-crystal": {
+			"speed": 20,
+			"damage": 50,
+			"bulletWidth": 4,
+			"bulletHeight": 12,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 9
+		}
+	},
+	"requirements": [
+		{ "item": "titanium", "amount": 35 },
+		{ "item": "steel-plate", "amount": 45 },
+		{ "item": "lead", "amount": 80 },
+		{ "item": "copper", "amount": 120 }
+	],
+	"category": "turret"
+	"research": "scatter"
+}

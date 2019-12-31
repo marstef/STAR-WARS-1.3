@@ -1,0 +1,15 @@
+type: flyingUnit
+name: Tie fighter
+description: standard imperium fighter.
+speed: 1
+flying: true
+health: 20
+engineOffset: 5.5
+range: 200
+weapon: {
+  	name: chrome-blaster
+  length: 1.5
+  reload: 10
+  alternate: true
+  bullet: standardThorium
+}

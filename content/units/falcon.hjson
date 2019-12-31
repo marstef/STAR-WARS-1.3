@@ -1,0 +1,15 @@
+type: flyingUnit
+name: millennium falcon
+description: millennium falcon is fastest ship ever. GGWWWRGHH.
+speed: 5
+flying: true
+health: 1000
+engineOffset: 5.5
+range: 400
+weapon: {
+  	name: chrome-blaster
+  length: 1.5
+  reload: 15
+  alternate: true
+  bullet: standardThorium
+}

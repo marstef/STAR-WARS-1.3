@@ -1,0 +1,32 @@
+name: Tatooine
+description: realy hot planet, just survive and kill that Jabba Hutt.
+loadout: basicFoundation
+startingItems: [
+  copper/100
+]
+conditionWave: 10
+launchPeriod: 25
+requirements: [
+  {
+    type: ZoneWave
+    zone: groundZero
+    wave: 60
+  }
+  {
+    type: Unlock
+    block: steel-plate-forge
+  }
+  {
+    type: Unlock
+    block: kiln
+  }
+]
+resources: [
+  copper
+  lead
+  coal
+  sand
+  thorium
+  titanium
+  kyber-crystal
+]

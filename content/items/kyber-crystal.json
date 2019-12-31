@@ -1,0 +1,11 @@
+{
+	"type": "material",
+	"name": "Kyber crystal",
+	"description": "ancient rare crystal, full of Force",
+	"hardness": 30,
+	"cost": 22.0,
+	"color": "#00ffcc",
+	"radioactivity": 0.0
+	"explosiveness": 0.8
+	"flammability": 0.00
+}

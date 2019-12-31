@@ -1,0 +1,23 @@
+name: T47 airspeeder factory
+description: Makes T47 airspeeder for help.
+type: UnitFactory
+unitType: t47-airspeeder
+size: 2
+produceTime: 350
+consumes: {
+  power: 0.5
+  items: {
+    items: [
+      silicon/10
+      steel-plate/10
+    ]
+  }
+}
+category: units
+research: steel-plate-forge
+requirements: [
+  thorium/70
+  steel-plate/40
+  silicon/40
+  titanium/20
+]

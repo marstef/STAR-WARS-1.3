@@ -1,0 +1,17 @@
+{
+    "type": "GroundUnit",
+    "name": "Stormtrooper",
+    "health": 5,
+    "speed": 0.05,
+    "range": 300.0,
+    "flying": false,
+    "weapon": {
+        "length": 3.0,
+        "reload": 20.0,
+        "width": 2.0,
+        "inaccuracy": 75.0,
+        "alternate": true,
+        "shootSound": "shoot",
+        "bullet": "standardCopper"
+    }
+}

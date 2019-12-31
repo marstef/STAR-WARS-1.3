@@ -1,0 +1,15 @@
+type: GroundUnit
+name: AT-AT
+description: masive deadly four legs walking mech, you cant run they get you.
+speed: 0.05
+flying: false
+health: 200
+engineOffset: 5.5
+range: 300
+weapon: {
+  	name: chrome-blaster
+  length: 1.5
+  reload: 15
+  alternate: true
+  bullet: standardHoming
+}
